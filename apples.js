@@ -45,7 +45,7 @@ function totalIncomePerColor(apples, color) {
 	for (var i= 0; i<apples.length;i++){
 		apples.push(color)
 	
-	return colorIncome;
+	return colorTotal;
 }
 }
 function totalProfitPerColor(apples, color, costMap) {
